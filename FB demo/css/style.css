@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(242, 250, 252);
+}
+.whole{
+    width:100%;
+    height: 100%;
+    background-color: rgb(242, 250, 252);
+    margin: 80px auto ;
+}
+
+.whole .lside{
+    width: 30%;
+    position: relative;
+    top: 140px;
+    left: 170px;
+
+}
+.lside p{
+    
+    font-size: 20px;
+}
+.lside h3{
+    color: rgb(15, 117, 235);
+    font-weight:bolder;
+    font-size: 40px;
+}
+.whole .form{
+    width: 30%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    position: relative;
+    left: 55%;
+    bottom: 50px;
+    background-color: rgb(255,255,255);
+    /* margin:20px; */
+
+}
+.input{
+    text-align: center;
+    padding: 15px 10px 0px 10px;
+}
+.input input:nth-child(2){
+    margin-top: 10px;
+}
+.btn{
+    text-align: center;
+    padding:10px ;
+}
+.link{
+    text-align: center;
+    padding:5px 20px 20px;
+}
+.btn1{
+    text-align: center;
+    /* padding:20px; */
+    padding: 25px;
+    border-top: 1px solid  rgb(219, 236, 240);
+}
+.input input{
+    width: 100%;
+    box-sizing: border-box;
+    /* text-align: center; */
+    font-size: 1em;
+    padding: 10px;
+    border:1px solid  rgb(219, 236, 240);
+    border-radius: 5px;
+}
+.btn button{
+    width: 100%;
+    background-color: rgb(93, 161, 238);
+    padding: 10px;
+    border-radius: 5px ;
+    border: 1px solid rgb(60, 139, 230);
+    box-sizing:border-box;
+    font-size: 1.3em;
+    color: rgb(255,255,255);
+}
+.btn1 button{
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(30, 230, 30);
+    border: 1px solid rgb(30, 230, 30);
+    border-radius: 5px;
+    font-size: 1em;
+    color: rgb(255,255,255);
+}
